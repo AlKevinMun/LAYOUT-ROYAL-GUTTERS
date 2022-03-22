@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  border: thin solid red;
+}
+
+
+#carrito{
+  background-color: #303030;
+  color: #f4b91d;
+  text-align: right;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+#carrito i{
+  color: #9e9e9e;
+}
+#header-logo{
+  background-color: #454545;
+}
+#header-logo:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+#logo-outside{
+  float: left;
+}
+#logo i{
+  font-size: 48px !important;
+}
+#logo{
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  background-color: #454545;
+  color: #f4b91d;
+  font-size: 18px;
+  text-align: center;
+}
+
+#menu{
+}
+
+#menu > ul {
+padding-left: 5em;
+padding-right: 5em;
+padding-top: 1em;
+padding-bottom: 1em;
+list-style-type: none;
+background-color: white;
+}
+#menu > ul > li {
+display: inline-block;
+}
+.menu-content{
+  padding-left: 1.5em;
+  padding-right: 1.5em
+}
+.vl{
+border-left: 1px solid grey;
+height: 15px;
+}
+#contenedor-centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#carril img {
+  width: 100%;
+  max-width: 100%;
+}
+  #carril div {
+    text-align: center;
+    padding: 0.5em;
+}
+#button-header{
+  background-color: #00cf2b;
+  border-radius: 1em;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+}
