@@ -1,7 +1,6 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  border: thin solid red;
 }
 
 
@@ -42,20 +41,30 @@
 
 #menu{
   position: absolute;
-  top: 8em;
-  left: 8em;
+  top: 5.5em;
+  left: 0;
+  right: 0;
+  margin: 2em;
+  z-index: 2;
 }
 
 #menu > ul {
 padding-left: 5em;
 padding-right: 5em;
-padding-top: 1.5em;
-padding-bottom: 1.5em;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
 list-style-type: none;
 background-color: white;
 }
 #menu > ul > li {
 display: inline-block;
+text-align: center;
+}
+#menu i{
+  display: block;
+}
+#blanco{
+  color: white;
 }
 .menu-content{
   padding-left: 1.5em;
@@ -70,6 +79,10 @@ height: 15px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#carril {
+  position: relative;
 }
 #carril img {
   width: 100%;
@@ -79,14 +92,88 @@ height: 15px;
     text-align: center;
     padding: 0.5em;
 }
-#button-header{
-  background-color: #00cf2b;
-  border-radius: 1em;
+#contenido-contenedor{
+  position: relative;
   color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+#button-contenedor{
+  background-color: #fec424;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
+  margin-top:5em;
+}
+#flecha-iz{
+  position: absolute;
+  top: 50%;
+  right: 95%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+#flecha-de{
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+#barra {
+  position: relative;
+}
+#barra img {
+  width: 100%;
+  max-width: 100%;
+  filter:brightness(50%);
+}
+#contenedor-barra{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+#barra-tit{
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 0.5em;
+}
+#barra-text{
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+#info{
+  text-align: center;
+}
+#info-tit{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0.5em;
+}
+#info-text{
+  font-size: 12px;
+  color: grey;
+  padding: 0.5em;
+}
+#info-location{
+  font-size: 16px;
+  color: cyan;
+  padding: 0.5em;
+}
+#info-number {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0.5em;
+}
+#info-number i {
+  color: #fec424;
+  font-size: 28px;
 }
