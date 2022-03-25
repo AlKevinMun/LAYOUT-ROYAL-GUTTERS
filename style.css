@@ -2,8 +2,6 @@
   box-sizing: border-box;
   margin: 0;
 }
-
-
 #carrito{
   background-color: #303030;
   color: #f4b91d;
@@ -176,4 +174,79 @@ height: 15px;
 #info-number i {
   color: #fec424;
   font-size: 28px;
+}
+#check-contenedor{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  padding: 1.5em;
+  background-color: #eaeaea;
+}
+.checkbox{
+    padding: 2em;
+}
+.check-icon{
+  font-size: 36px;
+  display: inline-block;
+}
+.check-tit{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0.5em;
+  display: inline-block;
+
+}
+.check-des{
+  color: #b7b7b7;
+  font-size: 12px;
+  padding-left: 3.5em;
+}
+#check-center{
+  position: relative;
+  text-align: center;
+  right: 2em;
+  bottom: 4em;
+}
+#extra-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.info-col{
+  text-align: center;
+}
+.info-icon{
+font-size: 48px;
+color: #434343;
+padding: 0.5em;
+}
+.info-tittle{
+  padding: 0.5em;
+  font-weight: bold;
+}
+.info-content{
+  padding: 0.5em;
+  color: #b7b7b7;
+}
+.more-info{
+  padding: 0.5em;
+  padding-bottom: 2em;
+  color: #4695b6;
+  font-weight: bold;
+}
+#opinions{
+  background-color: #eeeeee;
+  padding: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+#opinions-tit{
+  font-size: 24px;
+  font-weight: bold;
+}
+#opinions-header i{
+  position: relative;
+  display: inline-block;
+  color: #747474;
+  border: thin solid #dedede;
+  padding: 0.5em;
+  font-size: 20px;
 }
