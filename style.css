@@ -349,9 +349,14 @@ padding-top: 1em;
   }
 .footer-tit{
   color: white;
-  font-size: 24em;
+  font-size: 32px;
   font-weight: bold;
 }
 .footer-grey{
-  color: #606060
+  color: #606060;
+  font-size: 18px;
+}
+.footer-white{
+  color: white;
+  font-size: 18px;
 }
