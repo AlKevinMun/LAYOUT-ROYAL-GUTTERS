@@ -344,19 +344,27 @@ padding-top: 1em;
 }
   #footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: #454545;
+  }
+  .footer-column{
+    padding: 1em;
   }
 .footer-tit{
   color: white;
-  font-size: 32px;
+  font-size: 20px;
   font-weight: bold;
 }
 .footer-grey{
   color: #606060;
-  font-size: 18px;
+  font-size: 12px;
 }
 .footer-white{
   color: white;
-  font-size: 18px;
+  font-size: 12px;
+}
+#footer-icon{
+  color: grey;
+  font-size: 32px;
+  padding: 0.2em;
 }
