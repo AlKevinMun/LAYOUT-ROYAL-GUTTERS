@@ -298,14 +298,60 @@ padding-top: 1em;
   left: unset;
 }
 .opinion-triangulo{
-
+  position: absolute;
+  padding-top: 0;
+  padding-left: 0;
+  border-left: 15px solid white;
+  border-top: 0px solid transparent;
+  border-bottom: 25px solid transparent;
+  left: 3em;
 }
 .opinion-person{
   font-size: 12px;
   font-weight: bold;
   padding: 0.5em;
+  padding-top: 2.5em;
 }
 .opinion-rating{
   color: #ffcd24;
   font-size: 12px;
+}
+#gallery{
+  padding: 2em;
+}
+#gallery-tit{
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em;
+}
+.gallery-des{
+  padding: 0.25em;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+.imagen {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  #footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #454545;
+  }
+.footer-tit{
+  color: white;
+  font-size: 24em;
+  font-weight: bold;
+}
+.footer-grey{
+  color: #606060
 }
