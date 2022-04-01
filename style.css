@@ -163,7 +163,7 @@ height: 15px;
 }
 #info-location{
   font-size: 16px;
-  color: cyan;
+  color: #4695b6;
   padding: 0.5em;
 }
 #info-number {
@@ -397,4 +397,42 @@ padding-top: 1em;
   background-color: #f6c61c;
   text-align: center;
   padding: 0.5em;
+}
+@media (max-width: 1024px) {
+
+#menu > ul > li {
+  display: ruby-text
+}
+  #menu > ul {
+    padding-top: 0.5em;
+    list-style-type: none;
+    background-color: white;
+  }
+
+  #check-contenedor {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#extra-info {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#check-center {
+  position: static;
+  text-align: justify;
+  right: 2em;
+  bottom: 4em;
+}
+.checkbox{
+  padding: 0;
+}
+#opinions-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1em;
+}
+#footer {
+  display: grid;
+  grid-template-columns: 1fr;
 }
