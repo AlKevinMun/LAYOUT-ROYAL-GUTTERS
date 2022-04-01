@@ -437,13 +437,13 @@ padding-top: 1em;
   grid-template-columns: 1fr;
 }
 #footer-butom{
-  font-size: 18px;
+  font-size: 36px;
 }
 #gallery-butom{
-  font-size: 18px;
+  font-size: 36px;
 }
 .check-tit{
-  font-size: 28px;
+  font-size: 36px;
 }
 #menu {
   position: absolute;
@@ -451,4 +451,12 @@ padding-top: 1em;
   right: 0;
   margin: 2em;
   z-index: 2;
+}
+.opinion-rating{
+  color: #ffcd24;
+  font-size: 12px;
+  padding: 0.5em;
+}
+i{
+  padding: 1em;
 }
