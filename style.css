@@ -251,7 +251,6 @@ padding: 0.5em;
   font-size: 20px;
 }
 #opinions-header{
-padding-bottom: 1em ;
 padding-top: 1em;
 }
 #opiniones-flechas{
@@ -317,6 +316,7 @@ padding-top: 1em;
   font-size: 12px;
 }
 #gallery{
+  position: relative;
   padding: 2em;
 }
 #gallery-tit{
@@ -330,17 +330,26 @@ padding-top: 1em;
   font-size: 16px;
   text-align: center;
   font-weight: bold;
+  padding-bottom: 0.5em;
 }
-.imagen {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+.gallery-img{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
 }
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+#gallery-butom{
+  position: absolute;
+  left: 43%;
+  border-radius: 4px;
+  color: #979797;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border: thin solid #979797;
+  font-weight: bold;
 }
   #footer{
     display: grid;
@@ -348,23 +357,44 @@ padding-top: 1em;
     background-color: #454545;
   }
   .footer-column{
-    padding: 1em;
+    position: relative;
+    padding: 1.5em;
   }
 .footer-tit{
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
 }
 .footer-grey{
   color: #606060;
   font-size: 12px;
+  padding: 0.5em;
 }
 .footer-white{
   color: white;
   font-size: 12px;
 }
 #footer-icon{
+  position: absolute;
   color: grey;
-  font-size: 32px;
+  font-size: 30px;
   padding: 0.2em;
+  left: -1em;
+}
+#footer-butom{
+  background-color: #454545;
+  border-radius: 4px;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border: thin solid #f4b91d;
+  font-weight: bold;
+}
+#derechos{
+  background-color: #f6c61c;
+  text-align: center;
+  padding: 0.5em;
 }
