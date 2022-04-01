@@ -436,3 +436,19 @@ padding-top: 1em;
   display: grid;
   grid-template-columns: 1fr;
 }
+#footer-butom{
+  font-size: 18px;
+}
+#gallery-butom{
+  font-size: 18px;
+}
+.check-tit{
+  font-size: 28px;
+}
+#menu {
+  position: absolute;
+  top: 5.5em;
+  right: 0;
+  margin: 2em;
+  z-index: 2;
+}
