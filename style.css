@@ -57,6 +57,7 @@ background-color: white;
 #menu > ul > li {
 display: inline-block;
 text-align: center;
+text-decoration: none;
 }
 #menu i{
   display: block;
