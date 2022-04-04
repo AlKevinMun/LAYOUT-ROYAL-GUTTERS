@@ -5,6 +5,7 @@
 a{
   text-decoration: none;
   text-transform: uppercase;
+  color: black;
 }
 #carrito{
   background-color: #303030;
@@ -403,6 +404,64 @@ padding-top: 1em;
   text-align: center;
   padding: 0.5em;
 }
+
+#titulo_gallery{
+  position: relative;
+  background-color: grey;
+  color: white;
+  padding: 2em;
+  padding-left: 10em;
+  padding-right: 10em;
+  font-family: bold;
+}
+#name_gallery{
+  position: absolute;
+  left: 8em;
+  display: inline-block;
+  font-size: 20px;
+  bottom: 1em;
+}
+#ruta_gallery{
+  position: absolute;
+  right: 10em;
+  display: inline-block;
+  font-size: 12px;
+  top: 2em;
+}
+#lugar_imagenes_gallery{
+  padding: 2em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-bottom: 1em;
+}
+#text_imagenes_gallery{
+  font-family: bold;
+}
+#hr_gallery{
+  color: gold;
+}
+#lugar_cartas_gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.cartas_gallery{
+  position: relative;
+  padding: 0.5em;
+}
+.cartas_gallery img {
+  width: 100%;
+  max-width: 100%;
+}
+.contenido_carta_gallery{
+  position: absolute;
+  top: 1em;
+  color: white;
+  font-size: 12px;
+  background-color: darkgrey;
+}
+
+
+
 @media (max-width: 1024px) {
 
 #menu > ul > li {
