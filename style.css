@@ -410,9 +410,10 @@ padding-top: 1em;
   background-color: grey;
   color: white;
   padding: 2em;
+  padding-top: 3em;
   padding-left: 10em;
   padding-right: 10em;
-  font-family: bold;
+  font-weight: bold;
 }
 #name_gallery{
   position: absolute;
@@ -426,7 +427,7 @@ padding-top: 1em;
   right: 10em;
   display: inline-block;
   font-size: 12px;
-  top: 2em;
+  top: 3em;
 }
 #lugar_imagenes_gallery{
   padding: 2em;
@@ -435,7 +436,8 @@ padding-top: 1em;
   padding-bottom: 1em;
 }
 #text_imagenes_gallery{
-  font-family: bold;
+  font-weight: bold;
+  padding-bottom: 1em;
 }
 #hr_gallery{
   color: gold;
@@ -443,8 +445,9 @@ padding-top: 1em;
 #lugar_cartas_gallery{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
 }
-.cartas_gallery{
+.carta_gallery{
   position: relative;
   padding: 0.5em;
 }
@@ -454,13 +457,65 @@ padding-top: 1em;
 }
 .contenido_carta_gallery{
   position: absolute;
-  top: 1em;
+  bottom: 12px;
   color: white;
   font-size: 12px;
-  background-color: darkgrey;
+  background-color: #4c4c4c;
+  text-align: center;
+  padding: 0.5em;
+  padding-left: 4.55em;
+  padding-right: 4.55em;
 }
 
+#titulo_contact{
+  position: relative;
+  background-color: grey;
+  color: white;
+  padding: 2em;
+  padding-top: 3em;
+  padding-left: 10em;
+  padding-right: 10em;
+  font-weight: bold;
+}
+#name_contact{
+  position: absolute;
+  left: 8em;
+  display: inline-block;
+  font-size: 20px;
+  bottom: 1em;
+}
+#ruta_contact{
+  position: absolute;
+  right: 10em;
+  display: inline-block;
+  font-size: 12px;
+  top: 3em;
+}
+#tit_contact{
+  padding: 1em;
+  padding-left: 10em;
+  font-weight: bold;
+}
+#tit_form{
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 1em;
+}
+#main_contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 11em;
+  padding-right: 11em;
+}
+.des_form{
+  padding: 0.25em;
+  font-size: 12px;
+}
 
+label{
+  font-weight: bold;
+  padding: 0.5em;
+}
 
 @media (max-width: 1024px) {
 
