@@ -21,20 +21,66 @@
         <div class="des_form">Please help us by taking photos of your project and texting them to 503-558-8700·</div>
         <div class="des_form">Please include you full name and address so we know who it came from and also submit this form.</div>
         <form id="">
-          <label for="contact_details">Contact details</label><br>
+          <label class="tit_label" for="contact_details">Contact details</label><br>
           <input type="text" name="contact_details" placeholder="First name"><input type="text" name="contact_details" placeholder="Last name"><br>
           <input type="text" name="contact_details" placeholder="Company name (if applicable)">
           <br><br>
           <input type="text" name="contact_details" placeholder="Email"><input type="text" name="contact_details" placeholder="Phone number"><br>
 
-          <label for="address">Address</label><br>
+          <label for="address" class="tit_label" >Address</label><br>
           <input type="text" name="address" placeholder="Street 1"><br>
           <input type="text" name="address" placeholder="Street 2"><br>
           <input type="text" name="address" placeholder="City"><input type="text" name="address" placeholder="State"><input type="text" name="address" placeholder="ZIP code">
+          <br><br>
+          <div id="tit_contact2">MORE DETAILS PLEASE</div>
+          <br><br>
+          <label for="checkbox1" class="tit_label" >Can we send you a virtual quote? We use satellites, Google, photos you submit, etc to complice a quote.</label> <br>
+          <input type="checkbox" name="checkbox1,checkbox1.1">
+          <label class="pregunta_contact" for="checkbox1.1">Yes, send me a virtual quote by either method i select down below (Virtual quotes have a quicker turn aroud)</label> <br>
+          <input  type="checkbox" name="checkbox1, checkbox1.2">
+          <label class="pregunta_contact" for="checkbox1.2">No, i want to meet with someone (current timing 1-7 days)</label> <br>
+          <input  type="checkbox" name="checkbox1, checkbox1.3">
+          <label class="pregunta_contact" for="checkbox1.3">Not sure, contact me to discuss</label> <br>
+          <input  type="checkbox" name="checkbox1, checkbox1.4">
+          <label class="pregunta_contact" for="checkbox1.4">This is urgent</label>
+          <br><br>
+
+          <label for="checkbox2" class="tit_label" >What are your gutter needs?</label> <br>
+          <input  type="checkbox" name="checkbox2, checkbox2.1">
+          <label class="pregunta_contact" for="checkbox2.1">Leaf guards or gutter protection</label> <br>
+          <input  type="checkbox" name="checkbox2, checkbox2.2">
+          <label class="pregunta_contact" for="checkbox2.2">All new gutter</label> <br>
+          <input  type="checkbox" name="checkbox2, checkbox2.3">
+          <label class="pregunta_contact" for="checkbox2.3">Only a few new gutters needed</label> <br>
+          <input  type="checkbox" name="checkbox2, checkbox2.4">
+          <label class="pregunta_contact" for="checkbox2.4">Gutter repairs or Smaller jobs (Minimun charge $400)</label>
+          <br><br>
+
+          <label for="checkbox3" class="tit_label" >How many we contact you? <span class="optional_contact">(optional)</span></label> <br>
+          <input  type="checkbox" name="checkbox3, checkbox3.1">
+          <label class="pregunta_contact" for="checkbox3.1">Phone</label> <br>
+          <input  type="checkbox" name="checkbox3, checkbox3.2">
+          <label class="pregunta_contact" for="checkbox3.2">Email</label> <br>
+          <input  type="checkbox" name="checkbox3, checkbox3.3">
+          <label class="pregunta_contact" for="checkbox3.3">Text</label> <br>
+          <input  type="checkbox" name="checkbox3, checkbox3.4">
+          <label class="pregunta_contact" for="checkbox3.4">Pigeon Carrier</label>
+          <br><br>
+
+          <label class="tit_label" for="textbox1">Anything else we need to know? Please also take photos if possible and text them to 503-558-8700 w/full name & address</label> <br>
+          <input type="text" name="textbox1"> <br>
+          <label class="tit_label" for="textbox2">How did you hear about us? <span class="optional_contact">(optional)</span></label> <br>
+          <input type="text" name="textbox2"> <br>
+          <br>
+          <input id="buttom_submit_contact" type="submit" value="Submit">
         </form>
       </div>
       <div id="header_contact">
-        <div class="tit_header_contact"><i class="fa-solid fa-phone"></i> Call or Text</div>
+        <div id="poco_padding" class="tit_header_contact"><i class="fa-solid fa-phone"></i> Call or Text</div>
+        <hr class="linea-puntos">
+        <div id="mucho_padding" class="tit_header_contact"><i class="fa-solid fa-truck"></i> Portland, OR Service Area</div>
+        <hr class="linea-puntos">
+        <div id="medio_padding" class="tit_header_contact"><i class="fa-regular fa-clock"></i> Working Hours</div>
       </div>
     </div>
     <footer></footer>
